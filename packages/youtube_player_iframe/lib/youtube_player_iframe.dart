@@ -157,7 +157,8 @@ class _YoutubePlayerState extends State<YoutubePlayer> {
       featureName = params['feature'];
     } else if (path == '/watch') {
       featureName = 'emb_info';
-    } else if (defaultTargetPlatform == TargetPlatform.iOS) {
+    } else if (defaultTargetPlatform == TargetPlatform.iOS ||
+        defaultTargetPlatform == TargetPlatform.linux) {
       return NavigationDecision.navigate;
     }
 

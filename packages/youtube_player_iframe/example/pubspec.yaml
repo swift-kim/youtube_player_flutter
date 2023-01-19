@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  url_launcher_tizen: ^2.1.1
+  webview_flutter_tizen: ^0.6.2
   youtube_player_iframe:
     path: ../
 

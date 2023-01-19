@@ -115,6 +115,9 @@
            case 'web':
              window.parent.postMessage(messageString, '*');
              break;
+           default:
+             YoutubePlayer.postMessage(messageString, '*');
+             break;
          }
       }
 
